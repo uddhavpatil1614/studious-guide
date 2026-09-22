@@ -1,0 +1,9 @@
+include<stdio.h>
+void main ()
+{
+float CGPA,percentage;
+printf ("enter CGPA :");
+scanf("%f",& CGPA);
+percentage = (CGPA-0.75)*10;
+printf("your percentage is :%f", percentage);
+}
